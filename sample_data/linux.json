@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "url": "https://en.wikipedia.org/wiki/Linux",
+  "title": "Linux",
+  "summary": "Linux is an open-source family of Unix-like operating systems based on the Linux kernel.",
+  "key_entities": { "links": ["Linux kernel", "Linus Torvalds", "GNU Project"] },
+  "sections": ["History", "Design", "Distributions"],
+  "quiz": [],
+  "related_topics": ["Operating systems","Open source"]
+}
