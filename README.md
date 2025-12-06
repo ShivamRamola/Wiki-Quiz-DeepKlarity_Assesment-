@@ -38,10 +38,11 @@ pip install -r requirements.txt
 setx DATABASE_URL "postgresql+psycopg2://user:pass@localhost/dbname"
 ```
 
-4. Start the backend
+4.0. Change the directory
 ```powershell
 cd backend
 ```
+4.1. Start the backend
 ```powershell
 uvicorn app.main:app --reload --port 8000
 ```
