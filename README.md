@@ -39,9 +39,11 @@ setx DATABASE_URL "postgresql+psycopg2://user:pass@localhost/dbname"
 ```
 
 4. Start the backend
-
 ```powershell
-uvicorn backend.app.main:app --reload --port 8000
+cd backend
+```
+```powershell
+uvicorn app.main:app --reload --port 8000
 ```
 
 5. Open the frontend files in a browser:
