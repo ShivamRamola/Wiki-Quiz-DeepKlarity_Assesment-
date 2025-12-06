@@ -2,7 +2,6 @@ import random
 from typing import Dict, Any, List
 
 # Prompt templates for when a real LLM is wired via LangChain/OpenAI.
-# Keep these as separate strings so reviewers can see and tune prompts.
 QUIZ_PROMPT_TEMPLATE = (
     "You are given the title, summary, sections and entities extracted from a Wikipedia article. "
     "Produce 5-8 multiple-choice questions grounded in the provided content. "

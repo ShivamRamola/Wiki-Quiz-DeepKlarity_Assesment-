@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "frontend/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "^/$", "dest": "/frontend/Quiz.html" },
+    { "src": "^/history$", "dest": "/frontend/quiz_history.html" },
+    { "src": "^/(.*)$", "dest": "/frontend/$1" }
+  ]
+}

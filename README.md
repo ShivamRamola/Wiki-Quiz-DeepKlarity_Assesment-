@@ -2,12 +2,18 @@
 
 This project implements a minimal Wiki Quiz application: a FastAPI backend that scrapes Wikipedia pages, generates a short multiple-choice quiz, and stores results; plus a simple static frontend (HTML) with two tabs: Generate and History.
 
+# Here are some screenshort of the UI
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+
 Features included:
 
-- Scrapes article HTML using BeautifulSoup (no Wikipedia API used)
+- Scrapes article HTML using BeautifulSoup
 - Deterministic fallback quiz generator grounded in extracted content
 - Persistence via SQLModel (default: SQLite; set `DATABASE_URL` to a Postgres URL for production)
-- Frontend: `frontend/index.html` and `frontend/history.html`
+- Frontend: `frontend/Quiz.html` and `frontend/quiz_history.html`
 - Sample data in `sample_data/`
 - Prompt template strings in `backend/app/llm.py` for wiring a real LLM via LangChain/OpenAI
 
